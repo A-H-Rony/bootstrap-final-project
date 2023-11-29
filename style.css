@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header style start */
+.bg_header{
+  background-image: url(images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.navbar-brand,.my_font{
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 3rem;
+}
+.my_header_btn:hover{
+background-color: #9ACD32;
+color: #fff;
+transition: all .5s;
+}
+.header_second {
+    margin-top: 11%;
+}
+/* header style end */
+/* first card section style start */
+.my_first_card:hover img{
+  transform: scale(1.1);
+  transition:all .5s;
+}
+@media only screen and (max-width: 991px) {
+  .card{
+  margin-bottom: 20px;
+}
+}
+/* first card section style end */
+/* filter setion style start */
+
+/* filter setion style end */
+
+/* font-family: 'La Belle Aurore', cursive; */
+/* header style end */
