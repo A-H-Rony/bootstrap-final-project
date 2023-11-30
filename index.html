@@ -73,7 +73,7 @@
 
     <section class="first_card">
       <div class="container">
-        <div class="row mt-5">
+        <div class="row my-5">
           <div class="col-lg-1"></div>
           <div class="col-lg-5">
             <div class="bg-dark p-3 card rounded-3">
@@ -110,19 +110,17 @@
     </section>
 
     <section class="filter">
-      <div class="container mt-5">
-        <ul class="nav">
-          <li class="nav-item"><a class="nav-link" href="#burger" data-bs-toggle="tab">Burger</a></li>
-          <li class="nav-item"><a class="nav-link" href="#pizza" data-bs-toggle="tab">Pizza</a></li>
-          <li class="nav-item"><a class="nav-link" href="#pasta" data-bs-toggle="tab">Pasta</a></li>
-          
+      <div class="container my-5">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a class="nav-link active show"  data-bs-toggle="pill" href="#burger">Burger</a></li>
+          <li class="nav-item"><a class="nav-link"  data-bs-toggle="pill" href="#pizza">Pizza</a></li>
+          <li class="nav-item"><a class="nav-link"  data-bs-toggle="pill" href="#pasta">Pasta</a></li>
         </ul>
-        <!-- for burger -->
         <div class="tab-content">
-          <div id="burger" class="tab-pane fade">
+          <div class="tab-pane fade show" id="burger">
             <div class="row">
               <div class="col-lg-4">
-                <div class="card bg-dark p-5 text-white h-100">
+                <div class="card bg-dark text-white p-5 h-100 card_filter">
                   <img src="images/f2.png" class="card-img-top h-100" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Burger</h5>
@@ -134,7 +132,7 @@
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="card bg-dark p-5 text-white h-100">
+                <div class="card bg-dark text-white p-5 h-100 card_filter">
                   <img src="images/f7.png" class="card-img-top h-100" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Burger</h5>
@@ -147,7 +145,7 @@
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="card bg-dark p-5 text-white h-100">
+                <div class="card bg-dark text-white p-5 h-100 card_filter">
                   <img src="images/f8.png" class="card-img-top h-100" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Burger</h5>
@@ -161,111 +159,201 @@
               </div>
             </div>
           </div>
-        </div>
-        <!-- for pizza -->
-        <div class="tab-content">
-          <div id="pizza" class="tab-pane fade">
+          <div class="tab-pane fade fad" id="pizza">
             <div class="row">
               <div class="col-lg-4">
-                <div class="card bg-dark p-5 text-white h-100">
+                <div class="card bg-dark text-white p-5 h-100 card_filter">
                   <img src="images/f1.png" class="card-img-top h-100" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Pizza</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti
-                      veritatis tempore aperiam, repellendus
-                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad
-                      autem!
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti veritatis
+                      tempore aperiam, repellendus
+                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad autem!
                     </p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="card bg-dark p-5 text-white h-100">
+                <div class="card bg-dark text-white p-5 h-100 card_filter">
                   <img src="images/f3.png" class="card-img-top h-100" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Pizza</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti
-                      veritatis
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti veritatis
                       tempore aperiam, repellendus
-                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad
-                      autem!
+                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad autem!
                     </p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="card bg-dark p-5 text-white h-100">
+                <div class="card bg-dark text-white p-5 h-100 card_filter">
                   <img src="images/f6.png" class="card-img-top h-100" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Pizza</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti
-                      veritatis
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti veritatis
                       tempore aperiam, repellendus
-                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad
-                      autem!
+                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad autem!
                     </p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
             </div>
-        
           </div>
-        </div>
-        <!-- for pasta -->
-        <div class="tab-content">
-          <div id="pasta" class="tab-pane fade">
+          <div class="tab-pane fade fad" id="pasta">
             <div class="row">
               <div class="col-lg-4">
-                <div class="card bg-dark p-5 text-white h-100">
+                <div class="card bg-dark text-white p-5 h-100 card_filter">
                   <img src="images/f4.png" class="card-img-top h-100" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Pasta</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti
-                      veritatis tempore aperiam, repellendus
-                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad
-                      autem!
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti veritatis
+                      tempore aperiam, repellendus
+                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad autem!
                     </p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="card bg-dark p-5 text-white h-100">
+                <div class="card bg-dark text-white p-5 h-100 card_filter">
                   <img src="images/f5.png" class="card-img-top h-100" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Pasta</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti
-                      veritatis
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti veritatis
                       tempore aperiam, repellendus
-                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad
-                      autem!
+                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad autem!
                     </p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="card bg-dark p-5 text-white h-100">
+                <div class="card bg-dark text-white p-5 h-100 card_filter">
                   <img src="images/f9.png" class="card-img-top h-100" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Pasta</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti
-                      veritatis
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat, deleniti veritatis
                       tempore aperiam, repellendus
-                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad
-                      autem!
+                      iure exercitationem enim esse quam eveniet quae saepe praesentium dolorum tenetur assumenda laborum ad autem!
                     </p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
             </div>
-        
           </div>
         </div>
+      </div>
+    </section>
+    <section class="banner_burger_img bg-dark">
+      <div class=" container">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/about-img.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-8 text-white text-center">
+          <div class="description mt-5">
+            <h2 class="my_font">We Are Feane</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form,
+              by injected humour, or randomised words which don't look even slightly believable. If you are going to use
+              a passage of
+              Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. Al</p>
+            <div class="btn btn-warning px-4 rounded-pill fs-4 my_header_btn">Read More <i
+                class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="review text-center">
+      <h2 class="my_font py-3">Client Review</h2>
+      <div class="row bg-dark py-5">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active mb-5">
+                <img src="images/client1.jpg" class="c_img rounded-circle" alt="...">
+                <div class="client_info text-white">
+                  <h2>Hajard</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt voluptas aperiam cupiditate,
+                    magnam praesentium enim
+                    facere dignissimos at eos, tempora expedita voluptate. Numquam ducimus alias animi quaerat. Porro,
+                    sequi temporibus!</p>
+                </div>
+              </div>
+              <div class="carousel-item mb-5">
+                <img src="images/client2.jpg" class="c_img rounded-circle" alt="...">
+                <div class="client_info text-white">
+                  <h2>Hajard</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt voluptas aperiam cupiditate,
+                    magnam praesentium
+                    enim
+                    facere dignissimos at eos, tempora expedita voluptate. Numquam ducimus alias animi quaerat. Porro,
+                    sequi temporibus!
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4"></div>
+      </div>
+    </section>
+    <section class="contact pb-5">
+      <div class="container">
+        <h2 class="text-center my_font py-5">Contact Me</h2>
+        <div class="row">
+          <div class="col-lg-6 contact_form">
+            <h2 class="my_font ">Please fill up form</h2>
+            <form>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Enter Name">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Enter emai">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Enter phone">
+              </div>
+              <div class="mb-3">
+                <input type="date" class="form-control">
+              </div>
+              <button type="submit" class="btn btn-warning btn_rad px-4 fw-bold">Submit</button>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.617711174847!2d91.13321277535151!3d23.76100818836901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37540beaf0a36ef7%3A0xd750b43b29a4db93!2sMia%20House!5e0!3m2!1sen!2sbd!4v1701316572092!5m2!1sen!2sbd"
+              width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+      </div>
       </div>
     </section>
   </main>

@@ -30,15 +30,27 @@ transition: all .5s;
   transform: scale(1.1);
   transition:all .5s;
 }
+.banner_burger_img{}
 @media only screen and (max-width: 991px) {
   .card{
   margin-bottom: 20px;
 }
+.card_filter {
+    border-bottom: 5px solid;
+}
 }
 /* first card section style end */
-/* filter setion style start */
-
-/* filter setion style end */
-
-/* font-family: 'La Belle Aurore', cursive; */
-/* header style end */
+/* client style start */
+.c_img{
+  width: 200px;
+  height: 200px;
+}
+/* client style end */
+/* contact style start */
+.btn_rad {
+    border-radius: 12px;
+}
+.contact_form{
+  margin-bottom: 50px;
+}
+/* contact style end */
