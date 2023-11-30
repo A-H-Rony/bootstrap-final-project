@@ -11,6 +11,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  height: 100vh;
 }
 .navbar-brand,.my_font{
   font-family: 'La Belle Aurore', cursive;
@@ -22,7 +23,7 @@ color: #fff;
 transition: all .5s;
 }
 .header_second {
-    margin-top: 11%;
+    margin-top: 6%;
 }
 /* header style end */
 /* first card section style start */
@@ -32,10 +33,7 @@ transition: all .5s;
 }
 
 /* */
-@media only screen and (max-width: 745px){
-.header_second {
-    margin-top: 10px;
-} 
+
 }
 @media only screen and (max-width: 991px) {
   .card{
