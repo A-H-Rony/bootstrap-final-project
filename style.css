@@ -34,6 +34,10 @@ transition: all .5s;
 
 /* */
 
+@media only screen and (max-width: 740px){
+  .my_font{
+    font-size: 1.8rem;
+  }
 }
 @media only screen and (max-width: 991px) {
   .card{
